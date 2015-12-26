@@ -1,0 +1,1 @@
+<?php//Создать массив, который описывает сообщение ключами name, email, message с соответствующими значениями. Привести массив к объекту. Проанализировать результат при помощи var_dump.$viber = array("name"=>"Alex", "email"=>"Alex@gmail.com", "message"=>"Hi man, what's up?");$vob = (object)$viber;echo "<pre>";var_dump($vob);echo "</pre>";?>

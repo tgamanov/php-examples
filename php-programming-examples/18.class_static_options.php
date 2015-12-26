@@ -1,0 +1,1 @@
+<?php//Создать класс со статическим свойством, которое будет содержать значение количества созданных экземпляров.class withstaticoption{public static $objcr;public function __construct(){withstaticoption::$objcr++;}}$a= new withstaticoption();$b = new withstaticoption();echo $b::$objcr;?>

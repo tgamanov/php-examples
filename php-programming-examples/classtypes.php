@@ -1,0 +1,1 @@
+<?phpclass SMS {    public $name;    public $email;    public $message;}$viber = new SMS();$viber -> name = "Alex";$viber -> email =  "Alex@gmail.com";$viber -> message = "Hi man, what's up?";echo "<pre>";var_dump((array($viber)));echo "</pre>";?>

@@ -1,0 +1,1 @@
+<?phpclass Cnt{    private static $c = 0;    public function __construct()    {self::$c++;        echo "Construct has been started ".self::$c." times"."<br>";    }}$a = new Cnt();$b = new Cnt();$c = new Cnt();?>
